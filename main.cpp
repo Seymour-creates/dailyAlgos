@@ -1,6 +1,7 @@
 #include <iostream>
 #include "remove_duplicate_from_linked_list.hpp"
 #include "Path_Sum_of_Tree.hpp"
+#include "2D_array_word_search.hpp"
 using namespace std;
 
 
@@ -24,6 +25,17 @@ int main () {
 
     cout << "Expected Results --> " << expectedResult1 << "\n" << "Actual results --> ";
     pathSumTree.testImplementation(root1, targetSum1);
+
+    vector<vector<char>> board1 = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
+    string word1 = "ABCCED";
+    string word2 = "SEE";
+    string word3 = "ABCB";
+    TwoD_Word_search traveler;
+    traveler.testImplementation(board1, word1);
+    traveler.testImplementation(board1, word2);
+    traveler.testImplementation(board1, word3);
+
+
     return 0;
 
 }

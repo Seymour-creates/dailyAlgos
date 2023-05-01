@@ -1,11 +1,9 @@
 # ninja log v5
 3	674	1682823729058797976	CMakeFiles/DailyAlgo.dir/Remove_Duplicates_Sorted_List.cpp.o	7de685ed5d03150c
-658	773	1682882464264371705	DailyAlgo	61abd5e63b369a10
-1	52	1682882463543202507	CMakeFiles/DailyAlgo.dir/Path_Sum_Of_Binary_Tree.cpp.o	3063a612783a612c
-1	633	1682882464121219471	CMakeFiles/DailyAlgo.dir/main.cpp.o	daea47b328153661
-2	658	1682882464146834666	CMakeFiles/DailyAlgo.dir/Remove_duplicate_from_linked_list.cpp.o	daa549dddd25c08d
-3	750	1682883681579493335	CMakeFiles/DailyAlgo.dir/Path_Sum_Of_Binary_Tree.cpp.o	3063a612783a612c
-3	757	1682883681587718288	CMakeFiles/DailyAlgo.dir/main.cpp.o	daea47b328153661
-757	836	1682883681669772424	DailyAlgo	61abd5e63b369a10
-4	615	1682883724874735311	CMakeFiles/DailyAlgo.dir/Path_Sum_Of_Binary_Tree.cpp.o	3063a612783a612c
 615	682	1682883724943934667	DailyAlgo	61abd5e63b369a10
+4	615	1682883724874735311	CMakeFiles/DailyAlgo.dir/Path_Sum_Of_Binary_Tree.cpp.o	3063a612783a612c
+3	757	1682883681587718288	CMakeFiles/DailyAlgo.dir/main.cpp.o	daea47b328153661
+2	658	1682882464146834666	CMakeFiles/DailyAlgo.dir/Remove_duplicate_from_linked_list.cpp.o	daa549dddd25c08d
+4	1061	1682951536742016519	CMakeFiles/DailyAlgo.dir/2D_array_word_search.cpp.o	50900f7dba8eb42a
+3	1079	1682951536761247666	CMakeFiles/DailyAlgo.dir/main.cpp.o	daea47b328153661
+1079	1213	1682951536899882632	DailyAlgo	2c607d2026a9046d
