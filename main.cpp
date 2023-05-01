@@ -6,10 +6,12 @@ using namespace std;
 
 
 int main () {
+    // Remove duplicate value from singly linked list
     Remove_Dup_From_List removeDupFromList;
     auto* node = new ListNode(1, new ListNode(1,  new ListNode (2, new ListNode(2, new ListNode(3, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(5, new ListNode(6))))))))));
     removeDupFromList.testImplementation(node);
 
+    // Find if path to leaf node exists that adds to target value
     Path_Sum_Tree pathSumTree;
     auto* root1 = new TreeNode(5);
     root1->left = new TreeNode(4);
@@ -26,6 +28,7 @@ int main () {
     cout << "Expected Results --> " << expectedResult1 << "\n" << "Actual results --> ";
     pathSumTree.testImplementation(root1, targetSum1);
 
+    // Find if word exists in 2D array.. edge of characters must touch to form word
     vector<vector<char>> board1 = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
     string word1 = "ABCCED";
     string word2 = "SEE";
