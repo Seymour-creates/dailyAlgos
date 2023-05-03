@@ -52,23 +52,29 @@ build CMakeFiles/DailyAlgo.dir/main.cpp.o: CXX_COMPILER__DailyAlgo_Debug /Users/
   OBJECT_DIR = CMakeFiles/DailyAlgo.dir
   OBJECT_FILE_DIR = CMakeFiles/DailyAlgo.dir
 
-build CMakeFiles/DailyAlgo.dir/Path_Sum_Of_Binary_Tree.cpp.o: CXX_COMPILER__DailyAlgo_Debug /Users/romelogilbert/DailyAlgo/Path_Sum_Of_Binary_Tree.cpp || cmake_object_order_depends_target_DailyAlgo
-  DEP_FILE = CMakeFiles/DailyAlgo.dir/Path_Sum_Of_Binary_Tree.cpp.o.d
+build CMakeFiles/DailyAlgo.dir/algoProblemSource/Path_Sum_Of_Binary_Tree.cpp.o: CXX_COMPILER__DailyAlgo_Debug /Users/romelogilbert/DailyAlgo/algoProblemSource/Path_Sum_Of_Binary_Tree.cpp || cmake_object_order_depends_target_DailyAlgo
+  DEP_FILE = CMakeFiles/DailyAlgo.dir/algoProblemSource/Path_Sum_Of_Binary_Tree.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/DailyAlgo.dir
-  OBJECT_FILE_DIR = CMakeFiles/DailyAlgo.dir
+  OBJECT_FILE_DIR = CMakeFiles/DailyAlgo.dir/algoProblemSource
 
-build CMakeFiles/DailyAlgo.dir/Remove_duplicate_from_linked_list.cpp.o: CXX_COMPILER__DailyAlgo_Debug /Users/romelogilbert/DailyAlgo/Remove_duplicate_from_linked_list.cpp || cmake_object_order_depends_target_DailyAlgo
-  DEP_FILE = CMakeFiles/DailyAlgo.dir/Remove_duplicate_from_linked_list.cpp.o.d
+build CMakeFiles/DailyAlgo.dir/algoProblemSource/Remove_duplicate_from_linked_list.cpp.o: CXX_COMPILER__DailyAlgo_Debug /Users/romelogilbert/DailyAlgo/algoProblemSource/Remove_duplicate_from_linked_list.cpp || cmake_object_order_depends_target_DailyAlgo
+  DEP_FILE = CMakeFiles/DailyAlgo.dir/algoProblemSource/Remove_duplicate_from_linked_list.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/DailyAlgo.dir
-  OBJECT_FILE_DIR = CMakeFiles/DailyAlgo.dir
+  OBJECT_FILE_DIR = CMakeFiles/DailyAlgo.dir/algoProblemSource
 
-build CMakeFiles/DailyAlgo.dir/2D_array_word_search.cpp.o: CXX_COMPILER__DailyAlgo_Debug /Users/romelogilbert/DailyAlgo/2D_array_word_search.cpp || cmake_object_order_depends_target_DailyAlgo
-  DEP_FILE = CMakeFiles/DailyAlgo.dir/2D_array_word_search.cpp.o.d
+build CMakeFiles/DailyAlgo.dir/algoProblemSource/2D_array_word_search.cpp.o: CXX_COMPILER__DailyAlgo_Debug /Users/romelogilbert/DailyAlgo/algoProblemSource/2D_array_word_search.cpp || cmake_object_order_depends_target_DailyAlgo
+  DEP_FILE = CMakeFiles/DailyAlgo.dir/algoProblemSource/2D_array_word_search.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/DailyAlgo.dir
-  OBJECT_FILE_DIR = CMakeFiles/DailyAlgo.dir
+  OBJECT_FILE_DIR = CMakeFiles/DailyAlgo.dir/algoProblemSource
+
+build CMakeFiles/DailyAlgo.dir/algoProblemSource/Binary_Search_Algos.cpp.o: CXX_COMPILER__DailyAlgo_Debug /Users/romelogilbert/DailyAlgo/algoProblemSource/Binary_Search_Algos.cpp || cmake_object_order_depends_target_DailyAlgo
+  DEP_FILE = CMakeFiles/DailyAlgo.dir/algoProblemSource/Binary_Search_Algos.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DailyAlgo.dir
+  OBJECT_FILE_DIR = CMakeFiles/DailyAlgo.dir/algoProblemSource
 
 
 # =============================================================================
@@ -78,7 +84,7 @@ build CMakeFiles/DailyAlgo.dir/2D_array_word_search.cpp.o: CXX_COMPILER__DailyAl
 #############################################
 # Link the executable DailyAlgo
 
-build DailyAlgo: CXX_EXECUTABLE_LINKER__DailyAlgo_Debug CMakeFiles/DailyAlgo.dir/main.cpp.o CMakeFiles/DailyAlgo.dir/Path_Sum_Of_Binary_Tree.cpp.o CMakeFiles/DailyAlgo.dir/Remove_duplicate_from_linked_list.cpp.o CMakeFiles/DailyAlgo.dir/2D_array_word_search.cpp.o
+build DailyAlgo: CXX_EXECUTABLE_LINKER__DailyAlgo_Debug CMakeFiles/DailyAlgo.dir/main.cpp.o CMakeFiles/DailyAlgo.dir/algoProblemSource/Path_Sum_Of_Binary_Tree.cpp.o CMakeFiles/DailyAlgo.dir/algoProblemSource/Remove_duplicate_from_linked_list.cpp.o CMakeFiles/DailyAlgo.dir/algoProblemSource/2D_array_word_search.cpp.o CMakeFiles/DailyAlgo.dir/algoProblemSource/Binary_Search_Algos.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/DailyAlgo.dir
   POST_BUILD = :

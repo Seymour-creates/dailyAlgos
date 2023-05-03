@@ -55,7 +55,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				8
 			]
 		}
 	],
@@ -91,7 +92,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				8
 			]
 		},
 		{
@@ -100,7 +102,8 @@
 			[
 				3,
 				4,
-				5
+				5,
+				7
 			]
 		}
 	],
@@ -115,34 +118,45 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Path_Sum_Of_Binary_Tree.cpp",
+			"path" : "algoProblemSource/Path_Sum_Of_Binary_Tree.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Remove_duplicate_from_linked_list.cpp",
+			"path" : "algoProblemSource/Remove_duplicate_from_linked_list.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "remove_duplicate_from_linked_list.hpp",
+			"path" : "algoProblemHeaders/remove_duplicate_from_linked_list.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Path_Sum_of_Tree.hpp",
+			"path" : "algoProblemHeaders/Path_Sum_of_Tree.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "2D_array_word_search.hpp",
+			"path" : "algoProblemHeaders/2D_array_word_search.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "2D_array_word_search.cpp",
+			"path" : "algoProblemSource/2D_array_word_search.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "algoProblemHeaders/Binary_Search_Algos.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "algoProblemSource/Binary_Search_Algos.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

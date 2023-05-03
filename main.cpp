@@ -1,7 +1,8 @@
 #include <iostream>
-#include "remove_duplicate_from_linked_list.hpp"
-#include "Path_Sum_of_Tree.hpp"
-#include "2D_array_word_search.hpp"
+#include "algoProblemHeaders/remove_duplicate_from_linked_list.hpp"
+#include "algoProblemHeaders/Path_Sum_of_Tree.hpp"
+#include "algoProblemHeaders/2D_array_word_search.hpp"
+#include "algoProblemHeaders/Binary_Search_Algos.hpp"
 using namespace std;
 
 
@@ -38,6 +39,17 @@ int main () {
     traveler.testImplementation(board1, word2);
     traveler.testImplementation(board1, word3);
 
+    BinarySearch bs;
+
+    // Test case for searchInsert function
+    std::vector<int> nums1 = {1, 3, 5, 6, 7, 8, 10, 12, 15, 27, 33, 35, 38};
+    int target1 = 11;
+    bs.testImplementation(&BinarySearch::searchInsert, nums1, target1);
+
+    // Test case for searchTargetIndex function
+    std::vector<int> nums2 = {-1, 0, 3, 5, 9, 12, 14, 15, 19};
+    int target2 = 10;
+    bs.testImplementation(&BinarySearch::searchTargetIndex, nums2, target2);
 
     return 0;
 

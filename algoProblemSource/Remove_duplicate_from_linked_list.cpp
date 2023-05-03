@@ -1,5 +1,5 @@
 #include <iostream>
-#include "remove_duplicate_from_linked_list.hpp"
+#include "../algoProblemHeaders/remove_duplicate_from_linked_list.hpp"
 using namespace std;
 //Definition for singly-linked list.
 

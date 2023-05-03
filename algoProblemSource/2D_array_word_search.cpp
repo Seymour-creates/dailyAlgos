@@ -1,4 +1,4 @@
-#include "2D_array_word_search.hpp"
+#include "../algoProblemHeaders/2D_array_word_search.hpp"
 
 bool TwoD_Word_search::exist(vector<vector<char>> &board, string word)
 {

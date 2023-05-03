@@ -1,4 +1,4 @@
-#include "Path_Sum_of_Tree.hpp"
+#include "../algoProblemHeaders/Path_Sum_of_Tree.hpp"
 
 bool Path_Sum_Tree::hasPathSum(TreeNode* root, int targetSum)
 {
