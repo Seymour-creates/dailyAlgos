@@ -4,20 +4,11 @@
 #define DAILYALGO_SEARCHANDSORT_HPP
 #include <vector>
 #include <iostream>
+#include "../utils/common_utils.hpp"
+
 using namespace std;
 
-template <typename T>
-std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec) {
-    os << "[";
-    for (size_t i = 0; i < vec.size(); ++i) {
-        os << vec[i];
-        if (i < vec.size() - 1) {
-            os << ", ";
-        }
-    }
-    os << "]";
-    return os;
-}
+
 class SearchAndSort {
 public:
     vector<int> sortedSquares(vector<int>& nums);

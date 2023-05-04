@@ -4,6 +4,7 @@
 #include "algoProblemHeaders/2D_array_word_search.hpp"
 #include "algoProblemHeaders/Binary_Search_Algos.hpp"
 #include "algoProblemHeaders/searchAndSort.hpp"
+#include "algoProblemHeaders/twoPointersVector.hpp"
 using namespace std;
 
 
@@ -52,18 +53,41 @@ int main () {
 //    int target2 = 10;
 //    bs.testImplementation(&BinarySearch::searchTargetIndex, nums2, target2);
 
-    SearchAndSort sas;
+//    SearchAndSort sas;
+//
+//    // Test sortedSquares
+//    std::vector<int> input1 = {-4, -1, 0, 3, 10};
+//    std::vector<int> expectedResult1 = {0, 1, 9, 16, 100};
+//    sas.testImplementation(&SearchAndSort::sortedSquares, input1);
+//
+//    // Test rotate
+//    std::vector<int> input2 = {1, 2, 3, 4, 5, 6, 7};
+//    int k = 3;
+//    std::vector<int> expectedResult2 = {5, 6, 7, 1, 2, 3, 4};
+//    sas.testImplementation(&SearchAndSort::rotate, input2, k);
 
-    // Test sortedSquares
-    std::vector<int> input1 = {-4, -1, 0, 3, 10};
-    std::vector<int> expectedResult1 = {0, 1, 9, 16, 100};
-    sas.testImplementation(&SearchAndSort::sortedSquares, input1);
+    TwoPointers_Vector tpv;
 
-    // Test rotate
-    std::vector<int> input2 = {1, 2, 3, 4, 5, 6, 7};
-    int k = 3;
-    std::vector<int> expectedResult2 = {5, 6, 7, 1, 2, 3, 4};
-    sas.testImplementation(&SearchAndSort::rotate, input2, k);
+    std::cout << "\nTesting moveZeroes:" << std::endl;
+    std::vector<int> test1 = {0, 1, 0, 3, 12};
+    std::vector<int> test2 = {1, 0, 0, 2, 0};
+    std::vector<int> test3 = {2, 1, 0, 0, 4};
+    std::vector<int> test4 = {0, 0, 0, 0, 1};
+    tpv.testImplementation(&TwoPointers_Vector::moveZeroes, test1);
+    tpv.testImplementation(&TwoPointers_Vector::moveZeroes, test2);
+    tpv.testImplementation(&TwoPointers_Vector::moveZeroes, test3);
+    tpv.testImplementation(&TwoPointers_Vector::moveZeroes, test4);
+
+    std::cout << "\nTesting twoSum:" << std::endl;
+    std::vector<int> test5 = {2, 7, 11, 15};
+    std::vector<int> test6 = {1, 2, 3, 4, 5, 6};
+    std::vector<int> test7 = {-3, 1, 5, 6, 9};
+    std::vector<int> test8 = {1, 3, 5, 7, 9};
+
+    tpv.testImplementation(&TwoPointers_Vector::twoSum, test5, 9);
+    tpv.testImplementation(&TwoPointers_Vector::twoSum, test6, 7);
+    tpv.testImplementation(&TwoPointers_Vector::twoSum, test7, 3);
+    tpv.testImplementation(&TwoPointers_Vector::twoSum, test8, 12);
 
     return 0;
 
